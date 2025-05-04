@@ -1,6 +1,6 @@
 
 Trabajo Práctico N°1 - AyED 2025 - Defensa
-Alumno: Julián Molineris
+Alumnos: 
 
 -------------------------------------------------------
 🔐 LOGIN DE ADMINISTRADOR
