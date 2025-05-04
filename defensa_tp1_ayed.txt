@@ -1,0 +1,51 @@
+
+Trabajo Práctico N°1 - AyED 2025 - Defensa
+Alumno: Julián Molineris
+
+-------------------------------------------------------
+🔐 LOGIN DE ADMINISTRADOR
+-------------------------------------------------------
+- Se usa la librería getpass para ocultar la contraseña mientras se escribe.
+- El sistema tiene guardado como constantes el usuario y la contraseña del administrador.
+- Se permiten hasta 3 intentos. Si el login falla, el programa se cierra.
+- Si el login es exitoso, se muestra el menú del administrador.
+
+-------------------------------------------------------
+📋 MENÚ PRINCIPAL DEL ADMINISTRADOR
+-------------------------------------------------------
+- El menú tiene 5 opciones:
+    1. Gestión de Aerolíneas
+    2. Aprobar/Denegar Promociones
+    3. Gestión de Novedades
+    4. Reportes
+    5. Salir
+- Se puede navegar usando números.
+- Las opciones que no se desarrollan aún muestran "En construcción...".
+
+-------------------------------------------------------
+✈️ GESTIÓN DE AEROLÍNEAS - OPCIÓN 1a
+-------------------------------------------------------
+- Se permite ingresar múltiples aerolíneas en una sola sesión.
+- Se piden los siguientes datos: Nombre, Código IATA (máx. 3 letras), Descripción y Código de País.
+- Los códigos de país válidos son: ARG, CHI y BRA.
+- Se cuenta cuántas aerolíneas se cargan por país.
+- Al finalizar, se informa cuál es el país con más y con menos aerolíneas.
+- No se almacenan listas ni estructuras complejas, como exige el TP1.
+
+-------------------------------------------------------
+🗞️ GESTIÓN DE NOVEDADES - OPCIONES 3b y 3d
+-------------------------------------------------------
+- Se simulan 3 novedades precargadas en memoria.
+- Cada novedad tiene sus campos representados por variables individuales.
+- En la opción 3d (Ver novedades):
+    - Se muestran las 3 novedades en formato tabular.
+- En la opción 3b (Modificar novedad):
+    - Se puede editar cualquiera de las 3 novedades ingresando su código (1, 2 o 3).
+    - Se actualizan los valores en las variables y se muestra nuevamente la tabla.
+- El sistema no utiliza listas ni métodos avanzados.
+
+-------------------------------------------------------
+💡 NOTA FINAL
+-------------------------------------------------------
+- El código está 100% funcional, sigue el paradigma estructurado, evita banderas innecesarias, y no usa estructuras no permitidas.
+- Todas las entradas están validadas para evitar errores de ejecución.
