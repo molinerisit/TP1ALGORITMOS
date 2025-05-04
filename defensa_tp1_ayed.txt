@@ -45,7 +45,3 @@ Alumnos:
 - El sistema no utiliza listas ni métodos avanzados.
 
 -------------------------------------------------------
-💡 NOTA FINAL
--------------------------------------------------------
-- El código está 100% funcional, sigue el paradigma estructurado, evita banderas innecesarias, y no usa estructuras no permitidas.
-- Todas las entradas están validadas para evitar errores de ejecución.
